@@ -5,10 +5,8 @@ import { usePathname } from 'next/navigation'
 import { User } from '@/lib/auth'
 import {
   LayoutDashboard,
-  UtensilsCrossed,
   ShoppingCart,
   Package,
-  Truck,
   BarChart3,
   Users,
   Settings,
@@ -25,12 +23,6 @@ const navigationItems = [
     href: '/dashboard',
     icon: LayoutDashboard,
     roles: ['super_admin', 'manager', 'cashier'],
-  },
-  {
-    label: 'KOT',
-    href: '/kot',
-    icon: UtensilsCrossed,
-    roles: ['super_admin', 'manager', 'waiter'],
   },
   {
     label: 'Products',

@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation'
 import {
   LayoutDashboard,
   Users,
-  UtensilsCrossed,
   ShoppingCart,
   Package,
   BarChart3,
@@ -19,7 +18,6 @@ interface SideNavProps {
 
 const navItems = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/kot', label: 'KOT', icon: UtensilsCrossed },
   { href: '/products', label: 'Products', icon: ShoppingCart },
   { href: '/stock', label: 'Stock', icon: Package },
   { href: '/reports', label: 'Reports', icon: BarChart3 },
